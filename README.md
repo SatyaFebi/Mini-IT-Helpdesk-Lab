@@ -51,7 +51,7 @@ Bukti: `images/ipconfig-all.png`, `images/ip-a.png`
 Bukti: `images/glpi-dashboard.png`, `images/glpi-kategori.png`
 
 ### Fase 3: Break and fix jadi ticket
-Sengaja membuat masalah, lalu menyelesaikannya sebagai L1 lewat ticket. Setiap ticket berisi: gejala, langkah cek, akar masalah, solusi, status.
+Buat issue, lalu selesaikan sebagai L1 lewat ticket. Setiap ticket berisi: gejala, langkah cek, akar masalah, solusi, status.
 
 ### Fase 4: Dokumentasi
 README ini, screenshot di folder `images/`, dan knowledge base di folder `kb/`.
@@ -65,7 +65,6 @@ README ini, screenshot di folder `images/`, dan knowledge base di folder `kb/`.
 | 3 | Client tidak bisa internetan | `ip_forward` mati / rule NAT hilang | Selesai |
 | 4 | Web ticketing tidak bisa dibuka | Apache mati / disk penuh | Selesai |
 | 5 | User lupa password | Reset password akun Windows lokal | Selesai |
-| 6 | Perubahan konfigurasi server (contoh) | Di luar kewenangan L1 | Eskalasi ke L2 |
 
 Detail tiap kasus (dengan screenshot sebelum dan sesudah): [`cases/`](cases/)
 
@@ -92,8 +91,6 @@ Kalau masih gagal: buat ticket dan sertakan hasil langkah di atas.
 
 ## Masalah yang Ditemui dan Cara Fix-nya
 
-> Isi dengan masalah nyata yang kamu alami saat mengerjakan. Bagian ini paling menunjukkan bahwa project benar-benar dikerjakan sendiri.
-
 | Masalah | Penyebab | Cara fix |
 |---|---|---|
 | (contoh) Client tidak dapat IP dari Debian | DHCP bawaan VMware di VMnet2 belum dimatikan | Matikan DHCP VMnet2 di Virtual Network Editor |
@@ -101,7 +98,7 @@ Kalau masih gagal: buat ticket dan sertakan hasil langkah di atas.
 
 ## Catatan
 
-- Menu GLPI/osTicket bisa berbeda antar versi; cari kata "Knowledge base" atau "FAQ" jika tidak ketemu.
+- Menu GLPI dapat berbeda di beberapa versi; cari kata "Knowledge base" jika tidak ketemu.
 
 ## Struktur Repo
 
